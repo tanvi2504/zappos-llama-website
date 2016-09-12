@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About Llama</title>
+<link href = "home.css" rel="stylesheet" type="text/css"/>
+<script src="fancy.js">
+</script>
+</head>
+
+<body onload="resizeContent()">
+<div id = "wrapper">
+	<header></header>
+
+	<!-- Navigation bar-->
+	<ul class = "first">
+		<li><a  href="Homepage.html">HOME</a></li>
+   		<li> <a class = "active" href="About me.html">ABOUT Llama</a></li>
+   		<li> <a href="Photos.html">PHOTOS</a></li>
+ 
+	</ul>
+	<div id ="content" >
+	<div class="exp">
+  		<button class="accordion"><b>What is Llama power?</b></button>
+  		<div class="panel">
+    		<p class ="p1" >
+    		<br>
+   
+   			<p style="font-size:105%;"> Though llama power is correlated to certain physical attributes the true origin 			of a llama's power remains a mystery. Llama power can only be harnessed by the most innovative companies and they frequently use it to spawn new ideas.<br>
+  Llamas draw their mystical powers from their fur, neck length, spit velocity, and many other unknown sources.</p>
+   
+		    <br>
+    Llamas are thought to be the most powerful creatures in the universe, their maximum power remains unknown
+    		<br>
+   
+   
+    		</p>
+  	</div>
+  	<button class="accordion"><b>Food they eat</b></button>
+  	<div class="panel">
+ 
+    	<br>
+   		<h2 style="font-size:120%; color:#3B3B3B; line-height:0.4"> Food they eat  : </h2><br>
+   		<p style="font-size:105%;">
+ Llamas graze on grass and, like cows, regurgitate their food and chew it as cud. They chomp on such wads for some time before swallowing them for complete digestion. Llamas can survive by eating many different kinds of plants, and they need little water. These attributes make them durable and dependable even in sparse mountainous terrain.
+  		</p>
+  	</div>
+  	<button class="accordion"><b>FACTS</b></button>
+  	<div id="foo" class="panel">
+  		<br>
+    	<h2 style="font-size:120%; color:#111111; line-height:0.4"> Fun Facts  </h2><br>
+    
+    	<p style="font-size:108%; line-height:1.5">Antibodies in the immune system of the South American animal easily defeat the killer virus AIDS(Research is still in progress).
+Llamas are used to guard herds of sheep, goats, and alpacas.The llamas are effective at keeping away coyotes and other predators..</p>
+    
+  </div>
+</div>
+<div id="pic" >
+	<img class="img-circle"  src="images/coolHairLlama.jpg" alt ="Tanvi Raut" width="250" height="250" >
+		<p id= "text1">
+			   LLAMA<br>
+               </p>
+         
+	
+</div>
+</div>
+
+
+
+<footer></footer>
+
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+</body>
+</html>
